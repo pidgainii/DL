@@ -58,5 +58,7 @@ Reconstruction example:
 
 ![Image2](<Screenshots/Task 2/reconstructed.png>)
 
+Different loss function: 
+
 ![Image3](<Screenshots/Task 2/reconstructed2.png>)
 
