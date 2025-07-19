@@ -65,25 +65,6 @@ def ssim_loss(output, target):
 
 
 
-def distort_image(tensor_img):
-    # Convert tensor to PIL and temporarily to RGB for distortion
-    pil_img = transforms.ToPILImage()(tensor_img.cpu()).convert('RGB')
-
-    distortions = [apply_sun_flare, apply_grid_shuffle, apply_spatter]
-    distortion = random.choice(distortions)
-
-    distorted_pil = distortion(pil_img)
-
-    # Convert back to grayscale and then to tensor
-    distorted_pil = distorted_pil.convert("L")  # "L" mode = (1 channel grayscale)
-    distorted_tensor = transforms.ToTensor()(distorted_pil).to(tensor_img.device)  # Shape: [1, H, W]
-
-    return distorted_tensor
-
-
-
-
-
 
 
 # 1
