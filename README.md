@@ -45,6 +45,7 @@ Architecture of the model:
         )
 ```
 
+Trained model is available as autoencoder.pth ready to use
 
 
 ## Screenshots:
@@ -55,3 +56,4 @@ Augmented images:
 
 Reconstruction:
 
+![Image1](<Screenshots/Task 2/augmented.png>)
