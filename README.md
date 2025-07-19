@@ -51,4 +51,5 @@ Architecture of the model:
 
 Augmented images:
 
-![Image1](Screenshots/Task 2/augmented.png)
+![Image1](Screenshots/Task%2/augmented.png)
+
