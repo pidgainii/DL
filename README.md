@@ -54,6 +54,9 @@ Augmented images:
 
 ![Image1](<Screenshots/Task 2/augmented.png>)
 
-Reconstruction:
+Reconstruction example:
 
-![Image1](<Screenshots/Task 2/reconstructed.png>)
+![Image2](<Screenshots/Task 2/reconstructed.png>)
+
+![Image3](<Screenshots/Task 2/reconstructed2.png>)
+
