@@ -11,7 +11,7 @@ import random
 import os
 
 # ------------- CONFIG -------------
-TEST_DIRECTORY = r'path'
+TEST_DIRECTORY = r'C:\Users\yevge\Documents\YEVGEN\GitHub\Deep Learning\DL\Task 2\augmented\test'
 MODEL_PATH = "autoencoder.pth"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # ----------------------------------
@@ -20,6 +20,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 autoencoder = Autoencoder().to(DEVICE)
 autoencoder.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE))
 autoencoder.eval()
+
 
 # Dataset
 test_dataset = CustomDataset(TEST_DIRECTORY)

@@ -7,7 +7,7 @@ from albumentations import (
 import random
 
 # Paths
-BASE_DIR = r'path'
+BASE_DIR = r'C:\Users\yevge\Documents\YEVGEN\GitHub\Deep Learning\DL\Task 2'
 IMAGES_DIR = os.path.join(BASE_DIR, 'images')
 TRAINING_DIR = os.path.join(IMAGES_DIR, 'training')
 TESTING_DIR = os.path.join(IMAGES_DIR, 'testing')
