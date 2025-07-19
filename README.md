@@ -56,4 +56,4 @@ Augmented images:
 
 Reconstruction:
 
-![Image1](<Screenshots/Task 2/augmented.png>)
+![Image1](<Screenshots/Task 2/reconstructed.png>)
